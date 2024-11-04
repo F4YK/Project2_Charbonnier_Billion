@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Citations</title>
+</head>
+<header>
+    <div class="box">
+        <a href="citationpost.html" class="button"><img src="media/quantum.png" alt=""></a>
+    </div>
+</header>
+<br>
+<body>
+
+  <div class="slide-container">
+    <div class="custom-slider fade">
+      <div class="slide-index">1 / ?</div>
+
+      <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div> <!--Ajouter les citation proposés ici-->
+    </div>
+    <div class="custom-slider fade">
+      <div class="slide-index">2 / ?</div>
+      
+      <div class="slide-text">Nullam luctus aliquam ornare. </div>
+    </div>
+    <div class="custom-slider fade">
+      <div class="slide-index">3 / ?</div>                                          <!--Incrementation auto a faire-->
+      
+      <div class="slide-text">Praesent lobortis libero sed egestas suscipit.</div>  <!--Automatiser l ajout de citation-->
+    </div>
+    <div class="custom-slider fade">
+      <div class="slide-index">4 / ?</div>                                          <!--Incrementation auto a faire-->
+      
+      <div class="slide-text">Praesent lobortis libero sed egestas suscipit.</div>  <!--Automatiser l ajout de citation-->
+    </div>
+    <a class="prev" onclick="plusSlides(-1)" style="color: white;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="color: white;">&#10095;</a>
+  </div>
+  <br>
+  <div class="slide-dot">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <!-- <span class="dot" onclick="currentSlide(?)"></span> A rajouter pour chaque citation voir pour automatiser le process -->
+  </div>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Post</title>
+</head>
+<header>
+    <div class="box">
+        <a href="citationview.html" class="button"><img src="media/sun.webp" alt=""></a>
+    </div>
+    
+</header>
+<body>
+    <h1>Ajout de Citations</h1>
+    <form action="citation.php" method="post">
+        <div class="agdasima-bold">Citation<span style="color: red;">*</span>:</div>
+        <input type="text" name="citation" required placeholder="Entrez la citation"> <br><br>
+        <div class="agdasima-bold">Auteur :</div>
+        <input type="text" name="auteur" placeholder="Entrez l'auteur si possible"><br><br>
+        <input type="submit" value="Enregistrer">
+    </form>
+</body>
+</html>
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+
+        <title>Sign in</title>
+      </head>
+</head>
+<header>
+
+</header>
+<body>
+    <div class="main">
+        <p class="sign" align="center">Sign up</p>
+
+        <form class="form1" action="form.php" method="POST">
+          <input class="un" type="text" name="username" align="center" placeholder="Username" required>
+          <input class="pass" type="password" name="password" align="center" placeholder="Password" required>
+
+          <input class="pass" type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password"
+          required pattern=".{6,}" title="Les mots de passe doivent correspondre"
+          oninput="this.setCustomValidity(this.value !== password.value ? 'Les mots de passe ne correspondent pas.' : '')">
+          <input class="submit2" type="submit" value="Create Account">
+          <br>
+          <br>
+      </form>
+                    
+        </div>
+         
+</body>
+<footer>
+<p>
+   <a href="login.html">@projectBDD Charbonnier Billion</a> 
+</p>
+</footer>
+</html>
